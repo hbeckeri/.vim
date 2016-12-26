@@ -15,6 +15,9 @@ set splitbelow "split config"
 set splitright
 set number "line numbers"
 
+"Jsx syntax hylighting for .js"
+let g:jsx_ext_required = 0
+
 "Display some invisible characters"
 set list 
 set listchars=tab:>-
