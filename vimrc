@@ -1,6 +1,9 @@
 execute pathogen#infect()
 
+set t_Co=256
 syntax on
+colorscheme minimalist
+
 filetype plugin indent on
 
 "Key mappings"
@@ -11,18 +14,13 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-set splitbelow "split config"
+set splitbelow 
 set splitright
-set number "line numbers"
+set number 
 
-"Jsx syntax hylighting for .js"
 let g:jsx_ext_required = 0
 
-"Display some invisible characters"
 set list 
-set listchars=tab:>-
+set listchars=tab:>/
 
-"Ignore these files in ctrlp"
 let g:ctrlp_custom_ignore = { 'dir':  '\v[\/](node_modules|reports|test|dist|docs|src/libraries)$' }
-
-
