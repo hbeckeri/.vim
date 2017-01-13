@@ -23,6 +23,7 @@ let g:jsx_ext_required = 0
 
 set list 
 set listchars=tab:>/
+set paste
 
 let g:ctrlp_custom_ignore = { 'dir':  '\v[\/](node_modules|reports|test|dist|docs|src/libraries)$' }
 let g:syntastic_javascript_checkers = ['eslint']
