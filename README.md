@@ -1,4 +1,4 @@
-# .vim
+#.vim
 
 My personal vim configuration.
 
@@ -18,3 +18,4 @@ My personal vim configuration.
         cd .vim
         git submodule init
         git submodule update
+
