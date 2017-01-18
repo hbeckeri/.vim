@@ -14,10 +14,11 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Splits
 set splitbelow 
 set splitright
 set number 
+set tabstop=4
+set shiftwidth=4
 
 let g:jsx_ext_required = 0
 
