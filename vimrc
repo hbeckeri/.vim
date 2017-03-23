@@ -22,8 +22,6 @@ set number
 set tabstop=4
 set shiftwidth=4
 
-let g:jsx_ext_required = 0
-
 set list 
 set listchars=tab:/~
 set paste
