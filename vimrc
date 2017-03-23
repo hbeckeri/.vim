@@ -8,7 +8,7 @@ filetype plugin indent on
 
 " Key mappings
 map <C-n> :NERDTreeToggle<CR>
-map <C-o> :wa<CR>
+map <C-o> :wa!<CR>
 map <C-y> :sort<CR>
 
 nnoremap <C-J> <C-W><C-J>
