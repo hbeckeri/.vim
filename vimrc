@@ -22,9 +22,13 @@ set number
 set tabstop=4
 set shiftwidth=4
 
+let mapleader = ","
+
 set list 
 set listchars=tab:/~
 set paste
 
 let g:ctrlp_custom_ignore = { 'dir':  '\v[\/](node_modules|reports|test|dist|docs|src/libraries)$' }
 let g:syntastic_javascript_checkers = ['eslint']
+
+map <Leader>j !python -m json.tool<CR>
