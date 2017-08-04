@@ -30,5 +30,7 @@ set paste
 
 let g:ctrlp_custom_ignore = { 'dir':  '\v[\/](node_modules|reports|test|dist|docs|src/libraries)$' }
 let g:syntastic_javascript_checkers = ['eslint']
+let g:colorizer_auto_color = 1
+let g:colorizer_auto_filetype='css,html,scss'
 
 map <Leader>j !python -m json.tool<CR>
