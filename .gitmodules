@@ -25,3 +25,6 @@
 [submodule "bundle/vim-jsx-improve"]
 	path = bundle/vim-jsx-improve
 	url = git@github.com:neoclide/vim-jsx-improve.git
+[submodule "bundle/Colorizer"]
+	path = bundle/Colorizer
+	url = git@github.com:chrisbra/Colorizer.git
