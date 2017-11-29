@@ -28,3 +28,6 @@
 [submodule "bundle/Colorizer"]
 	path = bundle/Colorizer
 	url = git@github.com:chrisbra/Colorizer.git
+[submodule "/Users/harrisonbeckerich/.vim/bundle/vim-solidity"]
+	path = /Users/harrisonbeckerich/.vim/bundle/vim-solidity
+	url = https://github.com/tomlion/vim-solidity.git
