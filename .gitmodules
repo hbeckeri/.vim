@@ -28,9 +28,6 @@
 [submodule "bundle/Colorizer"]
 	path = bundle/Colorizer
 	url = git@github.com:chrisbra/Colorizer.git
-[submodule "vim-prettier"]
-	path = vim-prettier
-	url = https://github.com/prettier/vim-prettier.git
 [submodule "bundle/vim-prettier"]
 	path = bundle/vim-prettier
-	url = https://github.com/prettier/vim-prettier.git
+	url = git@github.com:prettier/vim-prettier.git
