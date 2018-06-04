@@ -36,3 +36,4 @@ let g:colorizer_auto_color = 1
 let g:colorizer_auto_filetype='css,html,scss'
 
 map <Leader>j !python -m json.tool<CR>
+map <Leader>p :Prettier<CR>
