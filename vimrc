@@ -34,6 +34,7 @@ let g:ctrlp_custom_ignore = { 'dir':  '\v[\/](node_modules|reports|test|dist|doc
 let g:syntastic_javascript_checkers = ['eslint']
 let g:colorizer_auto_color = 1
 let g:colorizer_auto_filetype='css,html,scss'
+let g:NERDTreeChDirMode=2
 
 map <Leader>j !python -m json.tool<CR>
 map <Leader>p :Prettier<CR>
