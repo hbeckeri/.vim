@@ -38,3 +38,6 @@ let g:NERDTreeChDirMode=2
 
 map <Leader>j !python -m json.tool<CR>
 map <Leader>p :Prettier<CR>
+
+set exrc
+set secure
