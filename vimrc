@@ -41,3 +41,4 @@ map <Leader>p :Prettier<CR>
 
 set exrc
 set secure
+set bs=2
