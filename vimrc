@@ -24,11 +24,13 @@ set splitright
 set number 
 set tabstop=3
 set shiftwidth=3
+set exrc
 
 let mapleader = ","
 
 set list 
 set listchars=tab:→\ 
+set backspace=indent,eol,start
 
 let g:ctrlp_custom_ignore = { 'dir':  '\v[\/](node_modules|reports|test|dist|docs|src/libraries)$' }
 let g:syntastic_javascript_checkers = ['eslint']
