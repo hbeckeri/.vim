@@ -37,9 +37,23 @@ let g:syntastic_javascript_checkers = ['eslint']
 let g:colorizer_auto_color = 1
 let g:colorizer_auto_filetype='css,html,scss'
 let g:NERDTreeChDirMode=2
+let g:clang_format#code_style = 'google'
+let g:clang_format#style_options = {
+            \ "UseTab" : "Never",
+            \ "ConstructorInitializerAllOnOneLineOrOnePerLine" : "true",
+            \ "ConstructorInitializerIndentWidth" : "2",
+            \ "ContinuationIndentWidth" : "2",
+            \ "AlignConsecutiveDeclarations" : "true",
+            \ "AlignConsecutiveAssignments" : "true",
+            \ "BinPackArguments" : "false",
+            \ "BinPackParameters" : "false",
+            \ "ExperimentalAutoDetectBinPacking" : "false",
+            \ "AllowAllParametersOfDeclarationOnNextLine" : "false",
+            \ "ColumnLimit" : "120"}
 
 map <Leader>j !python -m json.tool<CR>
 map <Leader>p :Prettier<CR>
+map <Leader>o :ClangFormat<CR>
 
 set exrc
 set secure
