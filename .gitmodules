@@ -4,36 +4,21 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
-[submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
-[submodule "bundle/vim-jsx"]
-	path = bundle/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
 [submodule "bundle/minimalist"]
 	path = bundle/minimalist
 	url = https://github.com/dikiaap/minimalist
-[submodule "bundle/vim-json"]
-	path = bundle/vim-json
-	url = https://github.com/elzr/vim-json.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/apiblueprint.vim"]
 	path = bundle/apiblueprint.vim
 	url = https://github.com/kylef/apiblueprint.vim.git
-[submodule "bundle/vim-jsx-improve"]
-	path = bundle/vim-jsx-improve
-	url = git@github.com:neoclide/vim-jsx-improve.git
 [submodule "bundle/Colorizer"]
 	path = bundle/Colorizer
 	url = git@github.com:chrisbra/Colorizer.git
 [submodule "bundle/vim-prettier"]
 	path = bundle/vim-prettier
 	url = git@github.com:prettier/vim-prettier.git
-[submodule "bundle/vim-solidity"]
-	path = bundle/vim-solidity
-	url = https://github.com/tomlion/vim-solidity.git
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
@@ -49,3 +34,6 @@
 [submodule "bundle/vim-clang-format"]
 	path = bundle/vim-clang-format
 	url = git@github.com:rhysd/vim-clang-format.git
+[submodule "bundle/vim-jsx-pretty"]
+	path = bundle/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
